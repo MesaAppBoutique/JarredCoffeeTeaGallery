@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">JarrodCoffeeTeaGallery</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="the_jarrod_coffee_logo_accessible">The Jarrod Coffee Logo.</string>
+    <string name="home_btn_txt">Home</string>
+    <string name="menu_txt_btn">Menu</string>
+    <string name="events_btn_txt">Events</string>
+
+    <string name="destination">Your Destination for Great Coffee, Tea, and Local Events.</string>
+
+    <string name="destination_image">Live stage image</string>
+
+    <string name="category_hint">Choose your category</string>
+    <string name="bags_of_coffee_access">Bags of coffee image for categories.</string>
+    <string name="selection_txt_tv">Make a selection</string>
+    <string name="menu_item_access">Menu item access image.</string>
+    <string name="detail_image_access">Detail image view access.</string>
+
+
+    <!--<string name="jarrod_size_summary">Small: %1$s | Medium: %2$s | Large: %3$s</string>
+    <string name="jarrod_price_summary">%1$s | %2$s | </string>-->
+    <!--Quantity: %1$s \n Flavor: %2$s \nPickup date: %3$s \n
+        Total: %4$s-->
+
+    <string name="jarrod_menu_price_range">%1$s - %2$s</string>
+    <string name="cancel_icon_description">The closing menu icon</string>
+
+</resources>

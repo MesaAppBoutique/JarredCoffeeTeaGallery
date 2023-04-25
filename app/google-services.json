@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "194283615677",
+    "project_id": "jarrodcoffeeteagallery",
+    "storage_bucket": "jarrodcoffeeteagallery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194283615677:android:f0509a2e6f0925acacced4",
+        "android_client_info": {
+          "package_name": "com.jarrodcoffee.example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194283615677-kaps8gbioid9i7lloqlgplih7qkrm3aj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYsy2zvy7saOPj__0pZGNbjaI11eJpbJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194283615677-kaps8gbioid9i7lloqlgplih7qkrm3aj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

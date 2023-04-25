@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="my_dark_primary">#002F5E</color>
+    <color name="my_light_primary">#0025A0</color>
+    <color name="jarrod_red">#5C0C0C</color>
+    <color name="jarrod_dark_blue">#2D3245</color>
+    <color name="jarrod_light_red">#BE1818</color>
+    <color name="jarrod_grey">#868A92</color>
+    <color name="jarrod_transparent">#00FFFFFF</color>
+</resources>

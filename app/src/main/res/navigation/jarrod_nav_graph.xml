@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/jarrod_nav_graph"
+    app:startDestination="@id/jarrodHome">
+
+    <fragment
+        android:id="@+id/jarrodHome"
+        android:name="com.jarrodcoffee.example.ui.fragments.JarrodHome"
+        android:label="fragment_jarrod_home"
+        tools:layout="@layout/fragment_jarrod_home" >
+        <action
+            android:id="@+id/action_jarrodHome_self"
+            app:destination="@id/jarrodHome" />
+        <action
+            android:id="@+id/action_jarrodHome_to_jarrodCategories"
+            app:destination="@id/jarrodCategories" />
+    </fragment>
+    <fragment
+        android:id="@+id/jarrodCategories"
+        android:name="com.jarrodcoffee.example.ui.fragments.JarrodCategories"
+        android:label="fragment_jarrod_categories"
+        tools:layout="@layout/fragment_jarrod_categories" >
+        <action
+            android:id="@+id/action_jarrodCategories_to_jarrodMenu"
+            app:destination="@id/jarrodMenu" />
+    </fragment>
+    <fragment
+        android:id="@+id/jarrodMenu"
+        android:name="com.jarrodcoffee.example.ui.fragments.JarrodMenu"
+        android:label="fragment_jarrod_menu"
+        tools:layout="@layout/fragment_jarrod_menu" >
+        <action
+            android:id="@+id/action_jarrodMenu_to_jarrodMenuDetails"
+            app:destination="@id/jarrodMenuDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/jarrodMenuDetails"
+        android:name="com.jarrodcoffee.example.ui.fragments.JarrodMenuDetails"
+        android:label="fragment_jarrod_menu_details"
+        tools:layout="@layout/fragment_jarrod_menu_details" >
+        <action
+            android:id="@+id/action_jarrodMenuDetails_to_jarrodMenu"
+            app:destination="@id/jarrodMenu" />
+    </fragment>
+</navigation>

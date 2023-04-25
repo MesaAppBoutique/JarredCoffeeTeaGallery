@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="jarrod_styles" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/jarrod_btn_shape</item>
+        <item name="android:textSize">@dimen/_13ssp</item>
+    </style>
+</resources>
